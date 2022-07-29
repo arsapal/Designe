@@ -4,7 +4,35 @@
     --gree: #5E8C61;
     --feldgrau: #4E6151;
     --dark: #3B322C;
+    --ombre: rgba(0, 0, 0, 0.6);
 }
 body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--dark);
+    width: 100vh;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: auto;
+    height: 1600px;
+}
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background: linear-gradient(90deg, var(--dark), var(--feldgrau));
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px var(--ombre);
+    width: 350px;
+    height: 250px;
 }
