@@ -1,0 +1,10 @@
+:root {
+    --cela: #94E8B4;
+    --chee: #72BDA3;
+    --gree: #5E8C61;
+    --feldgrau: #4E6151;
+    --dark: #3B322C;
+}
+body {
+    background-color: var(--dark);
+}
